@@ -1,0 +1,40 @@
+#load{
+	display: inline-block;
+}
+#loading { 
+	position:absolute;
+	background:url(../images/loading.gif) 0 0 no-repeat; 
+	text-indent: -9999px;
+	padding-top: 0px; 
+	margin-left: 5px;
+	top: 6px;
+	font-size:12px;
+	display:none; 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	width:50px;
+}
+.buttons{
+	position:relative;
+	margin-top: 20px;
+}
+#formstatus{
+	margin-top: 20px;
+}
+#res{
+	height: 28px;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #888;
+	padding: 0 10px 1px;
+	cursor:pointer;
+}
+#res:hover{
+	color:#000;
+}
+.pgm-ajax-form{
+	background:#fff;
+	border: 1px solid #E5E5E5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	padding: 10px 12px 12px;
+	margin-top: 15px;
+}
